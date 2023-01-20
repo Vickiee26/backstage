@@ -258,7 +258,6 @@ const routes = (
     <Route path="/search" element={<SearchPage />}>
       {searchPage}
     </Route>
-    <Route path="/cost-insights" element={<CostInsightsPage />} />
     <Route
       path="/cost-insights/investigating-growth"
       element={<CostInsightsProjectGrowthInstructionsPage />}
